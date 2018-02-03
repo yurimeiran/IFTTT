@@ -1,0 +1,170 @@
+<?php $tr = htmlspecialchars($_GET["tr"]); 
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>IFTT-ALIKE-PAGE</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="style/style1.css">
+    <link rel="stylesheet" href="style/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome library -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+    <script>
+
+function showSection(){
+
+ document.getElementById("<?php echo $tr ?>").style.display = "block";
+
+}
+</script>
+<style>
+
+ 
+</style>
+  </head>
+
+
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light border-bottom border-info bg-primary text-white p-4" id="navbar">
+      <div class="container-fluid">
+      
+        <a class="navbar-brand text-white" href="index.php"><h3 class="title"><b>IFTTT LIKE APP</b></h3></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold text-white" href="index.html">Sign In</a>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    
+    </nav>
+
+    
+
+    <!-- Page Header -->
+    <header class="">
+      
+        <button class="btn btn-outline-secondary m-4 font-weight-bold p-1" onclick=window.history.back() style="border-radius: 24px; border: 4px solid lightgrey; font-size: 20px">&nbsp&nbsp<i class="fa fa-angle-left font-weight-bold"></i> Back&nbsp&nbsp</button>
+       
+      </header>
+    
+     <main>
+
+     
+          <h1 class="font-weight-bold text-center"><i class="icon fa fa-envelope bg-primary" style="font-size: 7vmin;"></i>&nbsp&nbspConect email</h1> 
+          <p class=" text-center text-secondary">Step 6 of 6</p>
+        
+
+       
+
+<div class="container " id="email">
+
+  <div class="row justify-content-center">
+    <div class="col-lg-5 col-md-6 col-sm-8 text-left font-weight-bold">
+      <div class="w3-panel p-4 w3-round-large">
+      
+      <h5 class>Enter your email address to receive an activation PIN. The address you use may be separate from the address associated with your IFTTT account. </p>
+
+      <h4>Email address</h4>
+    <form class="form-group" action="confirmation.html">  
+      <input id="email" type="email" class="form-control center thickBorder w3-opacity" required></input>
+      
+        <div class="row justify-content-center mt-3">
+          <button class="btn btn-lg btn-primary center"  style="border-radius: 24px" type="submit" require>&nbspCreate applet&nbsp </button>
+        </div> 
+    </form>
+      </div>
+  </div>
+</div>
+</div>
+
+
+   
+      
+  
+<?php  
+switch ($tr){
+
+case 0:
+?>
+
+<script type="text/javascript">
+
+showSection();
+
+</script>
+
+
+<?php
+
+break;
+
+case 1:
+
+
+?>
+
+<script type="text/javascript">
+
+showSection();
+
+</script>
+
+
+<?php
+break;
+
+
+      }
+      ?> 
+
+
+
+</div>
+    <!-- Main Content -->
+   
+  </main>
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        
+             
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+
+  </body>
+
+</html>

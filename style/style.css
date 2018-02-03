@@ -1,0 +1,64 @@
+.tlink{
+
+color: #0088cc;
+}
+
+.hhh{
+
+    font-size: 5em;
+}
+
+.hh{
+
+font-size: 3em;
+
+}
+
+.thickBorder{
+
+  border: 5px solid lightgrey;
+  border-radius: 10px;
+}
+a:hover {
+
+text-decoration: none;
+
+}
+
+.card{
+
+  border-radius: 0%;
+  border: none;
+}
+
+.bg-facebook{
+
+background-color: #3b5998;
+}
+
+.bg-red{
+
+  background-color: red;
+}
+
+.bg-rss{
+
+background-color: #f2690e;
+}
+
+.bg-dkr-grey{
+
+  background-color: #35302c;
+}
+
+.card-title{
+
+ 
+  font-size: 3vmin;
+}
+
+.col-2{
+
+  min-width: 9.4rem;
+}
+
